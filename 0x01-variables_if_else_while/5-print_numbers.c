@@ -1,4 +1,7 @@
 #include <stdio.h>
+/* 
+	comment 
+	*/
 int main(void)
 {
 	int i;
