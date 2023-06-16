@@ -1,7 +1,9 @@
 #include <stdio.h>
-/* 
-	comment 
-	*/
+/**
+ *comment
+ *
+ * comment
+ */
 int main(void)
 {
 	int i;
