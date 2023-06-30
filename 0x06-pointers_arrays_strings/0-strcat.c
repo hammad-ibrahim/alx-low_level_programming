@@ -1,5 +1,5 @@
 /*
- * File: 0-strcat.c
+ * File: 0-memset.c
  * Auth: Brennan D Baraban
  */
 
@@ -14,7 +14,7 @@
  *
  * Return: A pointer to the filled memory area @s.
  */
-void *_strcat(void *s, int c, size_t n)
+void *_memset(void *s, int c, size_t n)
 {
 	unsigned int index;
 	unsigned char *memory = s, value = c;
@@ -23,4 +23,4 @@ void *_strcat(void *s, int c, size_t n)
 		memory[index] = value;
 
 	return (memory);
-}
+}}
